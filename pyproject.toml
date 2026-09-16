@@ -1,0 +1,21 @@
+[project]
+name = "mcp-claude-desktop"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "juandsalamanca", email = "juan.salamanca@tortexperts.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=4.0.4",
+    "pillow>=12.3.0",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+mcp-claude-desktop = "mcp_claude_desktop:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
