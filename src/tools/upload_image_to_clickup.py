@@ -1,3 +1,11 @@
+import base64
+import io
+import os
+from PIL import Image
+import requests
+from dotenv import load_dotenv
+load_dotenv()
+
 # Same ladder as the local compress_for_clickup.py script, so behavior is
 # consistent regardless of which one ends up doing the compressing.
 QUALITIES = [85, 70, 55, 40, 25]

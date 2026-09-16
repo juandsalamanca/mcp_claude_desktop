@@ -711,6 +711,7 @@ source = { editable = "." }
 dependencies = [
     { name = "fastmcp" },
     { name = "pillow" },
+    { name = "python-dotenv" },
     { name = "requests" },
 ]
 
@@ -718,6 +719,7 @@ dependencies = [
 requires-dist = [
     { name = "fastmcp", specifier = ">=4.0.4" },
     { name = "pillow", specifier = ">=12.3.0" },
+    { name = "python-dotenv", specifier = ">=1.2.3" },
     { name = "requests", specifier = ">=2.34.2" },
 ]
 
